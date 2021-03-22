@@ -1,0 +1,63 @@
+CNES - Recursos Físicos - Hospitalar - Leitos de internação - Minas Gerais
+Qtd existenteQtd SUSQuantidade Não SUS por Município
+Microrregião IBGE: 31060 Ponte Nova, 31061 Manhuaçu, 31062 Viçosa, 31063 Muriaé, 31064 Ubá, 31065 Juiz de Fora, 31066 Cataguases
+Período:Jan/2021
+"Município";"Qtd_existente";"Qtd_SUS";"Quantidade_Não_SUS"
+"310030 Abre Campo";66;59;7
+"310150 Além Paraíba";83;38;45
+"310210 Alto Rio Doce";17;16;1
+"310690 Bicas";35;28;7
+"311330 Carangola";213;164;49
+"311530 Cataguases";121;73;48
+"311630 Cipotânea";14;14;-
+"312200 Divino";42;42;-
+"312270 Dom Silvério";27;18;9
+"312400 Ervália";22;20;2
+"312420 Espera Feliz";47;42;5
+"312490 Eugenópolis";30;29;1
+"312595 Fervedouro";19;19;-
+"312820 Guaraciaba";23;23;-
+"313670 Juiz de Fora";2427;1410;1017
+"313770 Lajinha";50;40;10
+"313790 Lamim";8;8;-
+"313800 Laranjal";23;20;3
+"313840 Leopoldina";122;97;25
+"313860 Lima Duarte";35;29;6
+"313940 Manhuaçu";195;136;59
+"313950 Manhumirim";95;81;14
+"313980 Mar de Espanha";38;30;8
+"314090 Matipó";41;39;2
+"314160 Mercês";20;13;7
+"314220 Miraí";48;36;12
+"314390 Muriaé";569;363;206
+"314670 Palma";28;22;6
+"315080 Piranga";26;25;1
+"315110 Pirapetinga";32;32;-
+"315210 Ponte Nova";262;209;53
+"315310 Presidente Bernardes";18;18;-
+"315400 Raul Soares";56;34;22
+"315410 Recreio";34;30;4
+"315490 Rio Casca";40;31;9
+"315520 Rio Espera";18;18;-
+"315540 Rio Novo";39;39;-
+"315580 Rio Pomba";61;32;29
+"315590 Rio Preto";17;14;3
+"315790 Santa Margarida";31;31;-
+"315930 Santa Rita de Jacutinga";18;15;3
+"316070 Santos Dumont";75;54;21
+"316290 São João Nepomuceno";56;51;5
+"316570 Senador Firmino";20;6;14
+"316850 Teixeiras";15;15;-
+"316920 Tombos";50;30;20
+"316990 Ubá";315;233;82
+"317130 Viçosa";245;169;76
+"317200 Visconde do Rio Branco";82;52;30
+"Total";5968;4047;1921
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES
+ Nota:
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+ 
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+ De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+ A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+ 

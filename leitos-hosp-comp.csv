@@ -1,0 +1,46 @@
+CNES - Recursos Físicos - Hospitalar - Leitos Complementares - Minas Gerais
+Quantidade existenteQuantidade SUSQuantidade Não SUS por Município
+Microrregião IBGE: 31002 Paracatu, 31060 Ponte Nova, 31061 Manhuaçu, 31062 Viçosa, 31063 Muriaé, 31064 Ubá, 31065 Juiz de Fora, 31066 Cataguases
+Período:Jan/2021
+"Município";"Quantidade_existente";"Quantidade_SUS";"Quantidade_Não_SUS"
+"310030 Abre Campo";3;2;1
+"310150 Além Paraíba";13;7;6
+"310210 Alto Rio Doce";2;2;-
+"311330 Carangola";59;36;23
+"311530 Cataguases";28;17;11
+"312270 Dom Silvério";1;1;-
+"312860 Guarda-Mor";1;1;-
+"313630 João Pinheiro";12;2;10
+"313670 Juiz de Fora";469;239;230
+"313710 Lagamar";1;1;-
+"313770 Lajinha";1;1;-
+"313790 Lamim";1;1;-
+"313800 Laranjal";1;1;-
+"313840 Leopoldina";31;11;20
+"313940 Manhuaçu";73;50;23
+"313950 Manhumirim";11;11;-
+"313980 Mar de Espanha";1;1;-
+"314090 Matipó";1;1;-
+"314220 Miraí";2;2;-
+"314390 Muriaé";98;64;34
+"314700 Paracatu";44;11;33
+"315080 Piranga";2;2;-
+"315110 Pirapetinga";2;2;-
+"315210 Ponte Nova";75;49;26
+"315520 Rio Espera";2;2;-
+"315580 Rio Pomba";10;-;10
+"315790 Santa Margarida";1;1;-
+"316070 Santos Dumont";16;6;10
+"316920 Tombos";1;1;-
+"316990 Ubá";65;47;18
+"317130 Viçosa";40;19;21
+"317200 Visconde do Rio Branco";10;10;-
+"Total";1077;601;476
+ Fonte: Ministério da Saúde - Cadastro Nacional dos Estabelecimentos de Saúde do Brasil - CNES
+ Nota:
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+ 
+ Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+ De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+ A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+ 
