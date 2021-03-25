@@ -113,19 +113,16 @@ geoms_mg<- geobr::read_municipality(code_muni = 'MG')%>%
          across(leitos_total:prop_leitos_zm, corrigena),
          recomendacao_oms = case_when(leito_total_pcapita > 4 ~ "Mínimo segundo a OMS",
                                       leito_total_pcapita < 4 ~ "Abaixo do recomendado"),
-         prop_leitos_zm_grupos = case_when(prop_leitos_zm < 1 ~ 'a',
-                                        prop_leitos_zm > 1 & prop_leitos_zm < 5 ~ 'b',
-                                        prop_leitos_zm > 5 & prop_leitos_zm < 10 ~ 'c',
-                                        prop_leitos_zm > 10 ~ 'd'))
+         prop_leitos_zm_grupos =  cut(prop_leitos_zm, c(0,0,1,5,10,100)))
 
 
 
 
 ggplot() + geom_sf(data=geoms_mg , size= .15, 
                    show.legend = F) + geom_sf(data=geoms_mg, aes(fill =prop_leitos_zm_grupos ), color = "white")+
-  theme_void() + scale_fill_manual(name = "Proporção de Leitos da Zona da Mata em cada município",
-                                   label= c("Menos de 1%", "Entre 1% e 5%","Entre 5% e 10%","Mais que 10%"),
-                                    values= c("red4","indianred1", "yellow", "limegreen"))
+  theme_void() + scale_fill_manual(name = "Proporção de Leitos/ Habitante da Zona da Mata em cada município",
+                                   label= c("0% - Sem leito hospitalar", "Menos de 1%", "Entre 1% e 5%","Entre 5% e 10%","Mais que 10%"),
+                                    values= c("black", "red4","indianred1", "yellow", "limegreen"))
 
 
 
